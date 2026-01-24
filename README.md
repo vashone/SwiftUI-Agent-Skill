@@ -37,7 +37,7 @@ To install this Skill for your personal use in Claude Code:
 2. Install the Skill:
 
 ```bash
-/plugin install swiftui-expert@swiftui-agent-skill
+/plugin install swiftui-expert@swiftui-expert-skill
 ```
 
 #### Project Configuration
@@ -46,10 +46,10 @@ To automatically provide this Skill to everyone working in a repository, configu
 ```json
 {
   "enabledPlugins": {
-    "swiftui-expert@swiftui-agent-skill": true
+    "swiftui-expert@swiftui-expert-skill": true
   },
   "extraKnownMarketplaces": {
-    "swiftui-agent-skill": {
+    "swiftui-expert-skill": {
       "source": {
         "source": "github",
         "repo": "AvdLee/SwiftUI-Agent-Skill"

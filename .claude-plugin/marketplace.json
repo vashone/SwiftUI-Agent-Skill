@@ -1,15 +1,24 @@
 {
   "$schema": "https://raw.githubusercontent.com/anthropics/claude-code/refs/heads/main/marketplace/marketplace.schema.json",
-  "name": "SwiftUI Expert Skill",
+  "name": "swiftui-expert-skill",
   "version": "1.0.0",
-  "owner": "avanderlee",
-  "description": "SwiftUI best practices for state management, modern APIs, view composition, performance, and iOS 26+ Liquid Glass.",
+  "owner": {
+    "name": "Antoine van der Lee",
+    "email": "contact@avanderlee.com"
+  },
+  "metadata": {
+    "description": "SwiftUI best practices for state management, modern APIs, view composition, performance, and iOS 26+ Liquid Glass."
+  },
   "plugins": [
     {
       "name": "swiftui-expert",
       "description": "Expert SwiftUI guidance for modern APIs, state management, performance, and Liquid Glass patterns.",
       "repository": "https://github.com/avanderlee/SwiftUI-Agent-Skill",
-      "author": "Antoine van der Lee",
+      "version": "1.0.0",
+      "author": {
+        "name": "Antoine van der Lee",
+        "email": "contact@avanderlee.com"
+      },
       "license": "MIT",
       "category": "development",
       "keywords": [
@@ -22,8 +31,20 @@
         "performance",
         "liquid-glass"
       ],
+      "tags": [
+        "swift",
+        "swiftui",
+        "ios",
+        "apple",
+        "state-management",
+        "modern-apis",
+        "performance",
+        "liquid-glass"
+      ],
       "source": "./",
-      "skills": "./swiftui-expert-skill",
+      "skills": [
+        "./swiftui-expert-skill"
+      ],
       "strict": false
     }
   ]
