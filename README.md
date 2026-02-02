@@ -110,9 +110,9 @@ This skill gives your AI coding tool practical SwiftUI guidance. It can:
 swiftui-expert-skill/
   SKILL.md
   references/
-    animation-advanced.md
-    animation-basics.md
-    animation-transitions.md
+    animation-advanced.md - Performance, interpolation, and complex animation chains
+    animation-basics.md - Core animation concepts, implicit/explicit animations, timing
+    animation-transitions.md - View transitions, matchedGeometryEffect, and state changes
     image-optimization.md - AsyncImage usage, downsampling, caching
     layout-best-practices.md - Layout patterns and GeometryReader alternatives
     liquid-glass.md - iOS 26+ glass effects and fallback patterns
